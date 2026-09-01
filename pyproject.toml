@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doubao-md-tts"
+version = "1.0.0"
+description = "将 Markdown 长文本通过豆包 TTS 2.0 和克隆音色转换为有情绪的音频"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "chending" }]
+keywords = ["doubao", "tts", "markdown", "volcengine", "voice-clone"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
+]
+dependencies = []
+
+[project.scripts]
+doubao-md-tts = "doubao_md_tts.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]

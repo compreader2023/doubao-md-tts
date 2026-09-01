@@ -1,0 +1,20 @@
+# 复制本文件为 TTSAPIKEY 后填写。不要把真实密钥上传到 GitHub。
+
+# 新版控制台 API Key 鉴权：
+TTS_API_KEY=
+
+# 旧版 V3 双凭证鉴权：若使用这种方式，请保持 TTS_API_KEY 为空。
+APP_ID=
+ACCESS_KEY=
+
+# 必填：控制台中复制的音色 ID。
+# 声音复刻音色通常以 S_ 开头。
+VOICE_TYPE=
+
+# 可选。留空时程序会自动判断：
+# S_* 克隆音色 -> seed-icl-2.0
+# 豆包 TTS 2.0 公版音色 -> seed-tts-2.0
+RESOURCE_ID=
+
+# 可选：服务端日志中的用户标识。
+USER_ID=md-tts-user
