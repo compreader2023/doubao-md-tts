@@ -1,5 +1,7 @@
 # 豆包 Markdown 长文本 TTS
 
+[![tests](https://github.com/compreader2023/doubao-md-tts/actions/workflows/test.yml/badge.svg)](https://github.com/compreader2023/doubao-md-tts/actions/workflows/test.yml)
+
 把 Markdown 文档通过火山引擎/豆包 TTS 2.0 的异步长文本接口转换为音频。支持豆包声音复刻 2.0 音色，并允许你用中文自然语言描述整篇文章的情绪、语气和节奏。
 
 适用于 macOS 和 Windows。程序只使用 Python 标准库，不需要手动安装第三方依赖；首次运行会在项目目录自动创建隔离的 `.venv` 虚拟环境。
@@ -35,12 +37,13 @@
 
 不会 Git 的用户：
 
-1. 打开本 GitHub 项目页面；
-2. 点击绿色的 **Code** 按钮；
-3. 点击 **Download ZIP**；
-4. 解压到一个固定文件夹，例如：
+1. [点击这里下载 v1.0.0 稳定版 ZIP](https://github.com/compreader2023/doubao-md-tts/archive/refs/tags/v1.0.0.zip)；
+2. 解压 ZIP；
+3. 把解压后的文件夹放到一个固定位置，例如：
    - macOS：`下载/doubao-md-tts`
    - Windows：`D:\Tools\doubao-md-tts`
+
+也可以打开项目主页，点击绿色的 **Code** 按钮，再点击 **Download ZIP** 下载最新代码。
 
 会使用 Git 的用户可以运行：
 
